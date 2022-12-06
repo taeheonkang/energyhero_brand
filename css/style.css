@@ -1,0 +1,93 @@
+* {margin: 0; padding: 0;}
+ul {list-style: none;}
+a {text-decoration: none; color: black;}
+
+#top {height: 800px; background: url(../images/sub1_bg.png) no-repeat center top; background-size: cover;}
+.top_inner {width: 1320px; margin: 0 auto; box-sizing: border-box; position: relative;}
+.logo_top {width: 140px; height: 60px; position: absolute; top: 20px; left: 590px;}
+.nav {position: absolute; top: 105px; left: 50%; margin-left: -285px;}
+.nav>li {float: left;}
+.nav>li:nth-child(1) {margin-right: 95px;}
+.nav>li:nth-child(2) {margin-right: 95px;}
+.nav>li:nth-child(3) {margin-right: 95px;}
+.nav>li>a {display: block; font-size: 20px; font-family: 'Arial'; font-weight: bold; color: white;}
+.nav>li>a:hover {color: #aaa;}
+.login {position: absolute; top: 15px; right: 20px;}
+.login>li {float: left; margin-left: 20px;}
+.login>li>a {display: block; font-size: 16px; font-family: 'Arial'; color: white;}
+.login>li>a:hover {color: #aaa;}
+
+#banner1 {height: 300px; background: url(../images/ban1.jpg) no-repeat -600px 0px; background-attachment: fixed; text-align: center;}
+#banner1 p {font-family: 'Arial'; font-weight: bold; font-size: 30px; color: white; padding-top: 145px;}
+
+#cont1 {height: 800px; overflow: hidden;}
+.cont1_inner {width: 1320px; margin: 0 auto; box-sizing: border-box; position: relative;}
+.img1 {position: absolute; top: 60px; left: 0;}
+.img2 {position: absolute; top: 460px; right: 0;}
+.text1 {width: 660px; height: 280px; box-sizing: border-box; position: absolute; top: 60px; right: 0; padding: 20px 0 0 50px;}
+.text2 {width: 660px; height: 280px; box-sizing: border-box; position: absolute; top: 460px; left: 0; padding: 20px 0 0 50px;}
+.text1 h4 {font-family: '맑은고딕'; font-size: 30px; font-weight: bold; margin-bottom: 55px;}
+.text1 p {font-family: '맑은고딕'; font-size: 20px;}
+.text2 h4 {font-family: '맑은고딕'; font-size: 30px; font-weight: bold; margin-bottom: 55px;}
+.text2 p {font-family: '맑은고딕'; font-size: 20px;}
+
+#banner2 {height: 300px; background: url(../images/ban2.jpg) no-repeat -1300px -400px; background-attachment: fixed; text-align: center;}
+#banner2 p {font-family: 'Arial'; font-weight: bold; font-size: 30px; color: white; padding-top: 145px;}
+
+#cont2 {height: 800px;}
+.cont2_inner {width: 1320px; margin: 0 auto; box-sizing: border-box; position: relative;}
+.his1 {width: 660px; height: 140px; position: absolute; background: url(../images/sub1_history1.png) no-repeat center top; background-size: cover; box-sizing: border-box; left: 0; top: 50px;}
+.his2 {width: 660px; height: 140px; position: absolute; background: url(../images/sub1_history2.png) no-repeat center top; background-size: cover; box-sizing: border-box; right: 0; top: 190px;}
+.his3 {width: 660px; height: 140px; position: absolute; background: url(../images/sub1_history3.png) no-repeat center top; background-size: cover; box-sizing: border-box; left: 0; top: 330px;}
+.his4 {width: 660px; height: 140px; position: absolute; background: url(../images/sub1_history4.png) no-repeat center top; background-size: cover; box-sizing: border-box; right: 0; top: 470px;}
+.his5 {width: 660px; height: 140px; position: absolute; background: url(../images/sub1_history5.png) no-repeat center top; background-size: cover; box-sizing: border-box; left: 0; top: 610px;}
+.his1_text {width: 330px; height: 140px; box-sizing: border-box; background-color: rgba(0, 0, 0, 0.7); padding: 20px 0 0 20px; font-family: '맑은고딕'; font-size: 15px; color: white; float: right;}
+.his2_text {width: 330px; height: 140px; box-sizing: border-box; background-color: rgba(0, 0, 0, 0.7); padding: 20px 0 0 20px; font-family: '맑은고딕'; font-size: 15px; color: white; float: left;}
+.his3_text {width: 330px; height: 140px; box-sizing: border-box; background-color: rgba(0, 0, 0, 0.7); padding: 20px 0 0 20px; font-family: '맑은고딕'; font-size: 15px; color: white; float: right;}
+.his4_text {width: 330px; height: 140px; box-sizing: border-box; background-color: rgba(0, 0, 0, 0.7); padding: 20px 0 0 20px; font-family: '맑은고딕'; font-size: 15px; color: white; float: left;}
+.his5_text {width: 330px; height: 140px; box-sizing: border-box; background-color: rgba(0, 0, 0, 0.7); padding: 20px 0 0 20px; font-family: '맑은고딕'; font-size: 15px; color: white; float: right;}
+.year {font-size: 20px; margin-bottom: 20px;}
+.his1:hover {background-size: 110%;}
+.his2:hover {background-size: 110%;}
+.his3:hover {background-size: 110%;}
+.his4:hover {background-size: 110%;}
+.his5:hover {background-size: 110%;}
+
+#banner3 {height: 300px; background: url(../images/ban3.jpg) no-repeat -200px -1000px; background-attachment: fixed; text-align: center;}
+#banner3 p {font-family: 'Arial'; font-weight: bold; font-size: 30px; color: white; padding-top: 145px;}
+
+#cont3 {height: 800px;}
+.cont3_inner {width: 1320px; margin: 0 auto; box-sizing: border-box; position: relative;}
+.val1 {width: 660px; height: 175px; box-sizing: border-box; background: url(../images/sub1_value1.png) no-repeat center top; background-size: cover; position: absolute; top: 125px; left: 0;}
+.val_hover {width: 100%; height: 100%; color: white; background-color: rgba(0, 0, 0, 0.8); text-align: center; font-family: "Noto Sans KR"; font-size: 30px; font-weight: bold; opacity: 0;}
+.val_hover p {padding-top: 65px;}
+.val2 {width: 660px; height: 175px; box-sizing: border-box; background: url(../images/sub1_value2.png) no-repeat center top; background-size: cover; position: absolute; top: 300px; left: 0;}
+.val3 {width: 660px; height: 175px; box-sizing: border-box; background: url(../images/sub1_value3.png) no-repeat center top; background-size: cover; position: absolute; top: 475px; left: 0;}
+.val1_text {width: 660px; height: 175px; box-sizing: border-box; padding: 20px 0 0 50px; font-family: '맑은고딕'; font-size: 13px; position: absolute; top: 125px; right: 0;}
+.val2_text {width: 660px; height: 175px; box-sizing: border-box; padding: 20px 0 0 50px; font-family: '맑은고딕'; font-size: 13px; position: absolute; top: 300px; right: 0;}
+.val3_text {width: 660px; height: 175px; box-sizing: border-box; padding: 20px 0 0 50px; font-family: '맑은고딕'; font-size: 13px; position: absolute; top: 475px; right: 0;}
+.value {font-size: 25px; font-weight: bold; margin-bottom: 30px;}
+.val1:hover .val_hover {opacity: 1.0; transition: all 1s;}
+.val2:hover .val_hover {opacity: 1.0; transition: all 1s;}
+.val3:hover .val_hover {opacity: 1.0; transition: all 1s;}
+
+#footer {height: 250px; background-color: black;}
+.footer_inner {width: 1320px; margin: 0 auto; box-sizing: border-box; position: relative;}
+.footer_text {font-family: '맑은고딕'; font-size: 13px; position: absolute; top: 30px; left: 0; color: white; line-height: 25px;}
+.footer_ul {position: absolute; top: 30px; right: 0px;}
+.footer_ul li {float: left;}
+.footer_ul li img {width: 50px; height: 50px;}
+.footer_ul li a {display: block; margin-left: 15px; opacity: 0.3;}
+.footer_ul li a:hover {opacity: 1.0;}
+.logo_footer {width: 140px; height: 60px; box-sizing: border-box; position: absolute; right: 0; top: 150px;}
+
+.gotop {width: 70px; height: 140px; box-sizing: border-box; position: fixed; bottom: 30px; right: 40px;}
+.gotop:hover {transform: rotate(20deg); transition: 0.3s ease-in;}
+
+.log_box {width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); position: fixed; top: 0; left: 0; display: none;}
+.log {width: 300px; height: 180px; box-sizing: border-box; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-family: 'Noto Sans KR'; font-size: 14px; background-color: white;}   
+.sign_box {width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); position: fixed; top: 0; left: 0; display: none;}
+.sign {width: 300px; height: 180px; box-sizing: border-box; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-family: 'Noto Sans KR'; font-size: 14px; background-color: white;}
+.id {width: 250px; margin-top: 15px; box-sizing: border-box; padding: 2px 5px;}
+.submit_btn {display: inline-block; margin: 15px 0 30px 0; padding: 3px 10px; background-color: #333; color: white;}
+.close {color: #333; text-decoration: underline; margin-left: 230px;}
